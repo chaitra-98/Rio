@@ -18,7 +18,8 @@ public class SwapChar {
 	}
 
 	public static void main(String[] args) {
-		String str ="chaitra";
+		String str ="chaitra"
+				+ "";
 		System.out.println(count(str));
 		// TODO Auto-generated method stub
 
