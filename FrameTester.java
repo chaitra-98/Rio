@@ -22,16 +22,14 @@ public class FrameTester {
 		}
 		System.out.println("enhanced for loop******************");
 
-		System.out.println(framelist.get(3));
+		System.out.println(framelist.get(framelist.size()-1));
 		//System.out.println(framelist.set(2,plastic));
 		System.out.println("updating the 3rd element with new object");
 		for(int i=0;i<framelist.size();i++) {
 			Frame f= framelist.get(i);
-			System.out.println("updating index value");
 
 			boolean isifchangebale= f.isIfchangebale();
 			f.setIfchangebale(true);
-			System.out.println("updating second value");
 
 			 String getMaterial=f.getMaterial();
 			 f.setMaterial("steel");
