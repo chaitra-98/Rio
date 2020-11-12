@@ -21,7 +21,7 @@ public static void main(String[] args) {
 		System.out.println("Remove element : " + ref.poll());
 		ref.element();
 		System.out.println(" element method : " + ref);
-		System.out.println("Using offer-Method : " + ref.offer("white"));
+		System.out.println(" offer Method : " + ref.offer("white"));
 		System.out.println(ref);
 	}
 
